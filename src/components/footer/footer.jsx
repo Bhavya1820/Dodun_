@@ -12,7 +12,7 @@ const footer = () => {
           <img
             src="https://ik.imagekit.io/jncw2kb8u/image.png?updatedAt=1738665004511"
             alt="Logo"
-            className="h-30 w-50 md:w-70 object-cover"
+            className="h-30 w-60 md:w-80 object-cover"
           />
           <p className="text-gray-600 text-sm mx-5">
             We are more than just an IT services provider. We are a team of dedicated professionals who
@@ -20,9 +20,9 @@ const footer = () => {
           </p>
           <h3 className="mt-4 mx-6 font-bold">Follow Us</h3>
           <div className="flex space-x-4 mt-2 mx-6">
-            <Link to="https://www.instagram.com/dodun.softsolutions/?igsh=YzdpYTFuc2k0cTBn&utm_source=qr" className="text-pink-500 text-lg"><FaInstagram /></Link>
-            <Link to="https://www.linkedin.com/company/dodun-soft-solutions-co" className="text-blue-700 text-lg"><FaLinkedin /></Link>
-            <Link to="https://wa.link/b9farw" className="text-green-500 text-lg"><FaWhatsapp /></Link>
+            <Link to="https://www.instagram.com/dodun.softsolutions/?igsh=YzdpYTFuc2k0cTBn&utm_source=qr" className="text-pink-500 text-3xl hover:scale-110 transition duration-300"><FaInstagram /></Link>
+            <Link to="https://www.linkedin.com/company/dodun-soft-solutions-co" className="text-blue-700 text-3xl hover:scale-110 transition duration-300"><FaLinkedin /></Link>
+            <Link to="https://wa.link/b9farw" className="text-green-500 text-3xl hover:scale-110 transition duration-300"><FaWhatsapp /></Link>
           </div>
         </div>
         <div className='grid grid-cols-2'>

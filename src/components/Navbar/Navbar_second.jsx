@@ -85,9 +85,9 @@ const Navbar_second = () => {
       <div className="container mx-auto md:text-sm lg:text-lg flex items-center justify-between px-4">
         <Link to="/">
           <img
-            src="https://ik.imagekit.io/jncw2kb8u/image.png?updatedAt=1738665004511"
+            src="https://ik.imagekit.io/jncw2kb8u/image.png?updatedAt=1742284109869"
             alt="Logo"
-            className="h-20 w-50"
+            className="h-20 w-50 hover:scale-110 transition duration-300"
           />
         </Link>
         <div className="hidden md:flex space-x-6">
@@ -95,7 +95,7 @@ const Navbar_second = () => {
             to="/"
             className={`${
               textWhite ? "text-black" : "text-white"
-            } hover:text-blue-500`}
+            } hover:text-blue-500 hover:scale-110 transition duration-300`}
           >
             Home
           </Link>
@@ -103,7 +103,7 @@ const Navbar_second = () => {
             to="/about"
             className={`${
               textWhite ? "text-black" : "text-white"
-            } hover:text-blue-500`}
+            } hover:text-blue-500 hover:scale-110 transition duration-300`}
           >
             About Us
           </Link>
@@ -114,7 +114,7 @@ const Navbar_second = () => {
             <button
               className={`${
                 textWhite ? "text-black" : "text-white"
-              } rounded-lg flex items-center gap-2 hover:text-blue-500`}
+              } rounded-lg flex items-center gap-2 hover:text-blue-500 hover:scale-110 transition duration-300`}
               onClick={toggleDropdown}
             >
               Services <ChevronDown size={16} />
@@ -162,7 +162,7 @@ const Navbar_second = () => {
             to="/blog"
             className={`${
               textWhite ? "text-black" : "text-white"
-            } hover:text-blue-500`}
+            } hover:text-blue-500 hover:scale-110 transition duration-300`}
           >
             Blog
           </Link>
@@ -170,17 +170,17 @@ const Navbar_second = () => {
             to="/contact"
             className={`${
               textWhite ? "text-black" : "text-white"
-            } hover:text-blue-500`}
+            } hover:text-blue-500 hover:scale-110 transition duration-300`}
           >
             Contact Us
           </Link>
         </div>
-        <div className="hidden md:block">
+        <div className="hidden md:block bg-gradient-to-r from-sky-400 to-blue-800 hover:scale-110 transition duration-300 rounded-lg shadow-lg hover:shadow-xl">
           <button
             type="tel"
             className={`${
-              textWhite ? "text-black" : "text-white"
-            } border-2 border-white m-1 p-10 text-md px-4 py-2 hover:scale-105 transition duration-300 rounded-lg shadow-lg hover:shadow-xl`}
+              textWhite ? "text-black" : "text-black"
+            } bg-white border-2 border-white m-1 p-10 text-md px-4 py-2 rounded-lg`}
           >
             <Link to="tel:+91-8968881110">+91-8968881110</Link>
           </button>

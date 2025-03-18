@@ -68,16 +68,16 @@ const Navbar = () => {
       <div className="container mx-auto md:text-sm lg:text-lg flex items-center justify-between px-4">
         <Link to="/">
           <img
-            src="https://ik.imagekit.io/jncw2kb8u/image.png?updatedAt=1738665004511"
+            src="https://ik.imagekit.io/jncw2kb8u/image.png?updatedAt=1742284109869"
             alt="Logo"
-            className="h-20 w-50"
+            className="h-20 w-50 hover:scale-110 transition duration-300"
           />
         </Link>
         <div className="hidden md:flex space-x-6">
-          <Link to="/" className="text-black hover:text-blue-500">
+          <Link to="/" className="text-black hover:text-blue-500 hover:scale-110 transition duration-300">
             Home
           </Link>
-          <Link to="/about" className="text-black hover:text-blue-500">
+          <Link to="/about" className="text-black hover:text-blue-500 hover:scale-110 transition duration-300">
             About Us
           </Link>
           <div
@@ -85,7 +85,7 @@ const Navbar = () => {
             ref={dropdownRef}
           >
             <button
-              className="text-black rounded-lg flex items-center gap-2 hover:text-blue-500"
+              className="text-black rounded-lg flex items-center gap-2 hover:text-blue-500 hover:scale-110 transition duration-300"
               onClick={toggleDropdown}
             >
               Services <ChevronDown size={16} />
@@ -129,10 +129,10 @@ const Navbar = () => {
               </div>
             )}
           </div>
-          <Link to="/blog" className="text-black hover:text-blue-500">
+          <Link to="/blog" className="text-black hover:text-blue-500 hover:scale-110 transition duration-300">
             Blog
           </Link>
-          <Link to="/contact" className="text-black hover:text-blue-500">
+          <Link to="/contact" className="text-black hover:text-blue-500 hover:scale-110 transition duration-300">
             Contact Us
           </Link>
         </div>

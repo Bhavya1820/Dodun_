@@ -98,7 +98,7 @@ const getTouch = () => {
                     <input
                       type="text"
                       placeholder="Enter Your First Name"
-                      className="w-full px-4 py-3 text-white bg-transparent border-2 border-white focus:ring-2 focus:ring-black outline-none"
+                      className="w-full px-4 py-3 text-white bg-transparent border-2 border-white focus:ring-2 focus:ring-black outline-none placeholder:text-white"
                       name="firstName"
                       value={formData.firstName}
                       onChange={handleChange}
@@ -112,7 +112,7 @@ const getTouch = () => {
                     <input
                       type="text"
                       placeholder="Enter Your Last Name"
-                      className="w-full px-4 py-3 text-white bg-transparent border-2 border-white focus:ring-2 focus:ring-black outline-none"
+                      className="w-full px-4 py-3 text-white bg-transparent border-2 border-white focus:ring-2 focus:ring-black outline-none placeholder:text-white"
                       name="lastName"
                       value={formData.lastName}
                       onChange={handleChange}
@@ -129,7 +129,7 @@ const getTouch = () => {
                   <input
                     type="email"
                     placeholder="Enter a valid Email Address"
-                    className="w-full px-4 py-3 text-white bg-transparent border-2 border-white focus:ring-2 focus:ring-black outline-none"
+                    className="w-full px-4 py-3 text-white bg-transparent border-2 border-white focus:ring-2 focus:ring-black outline-none placeholder:text-white"
                     name="email"
                     value={formData.email}
                     onChange={handleChange}
@@ -145,7 +145,7 @@ const getTouch = () => {
                   <input
                     type="tel"
                     placeholder="Enter Your Phone Number"
-                    className="w-full px-4 py-3 text-white bg-transparent border-2 border-white focus:ring-2 focus:ring-black outline-none"
+                    className="w-full px-4 py-3 text-white bg-transparent border-2 border-white focus:ring-2 focus:ring-black outline-none placeholder:text-white"
                     name="phoneNumber"
                     value={formData.phoneNumber}
                     onChange={handleChange}
@@ -158,7 +158,7 @@ const getTouch = () => {
                 {/* Submit Button */}
                 <button
                   type="submit"
-                  className="w-full text-lg md:text-xl text-white border-2 border-white hover:scale-105 py-3 rounded-md font-medium transition-all duration-300"
+                  className="w-full text-lg md:text-xl text-white border-2 border-white hover:scale-105 py-3 rounded-md font-medium transition-all duration-300 "
                 >
                   Submit
                 </button>

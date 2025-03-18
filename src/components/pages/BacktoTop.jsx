@@ -34,7 +34,7 @@ const BackToTop = () => {
           to="https://www.linkedin.com/company/dodun-soft-solutions-co"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-blue-600 text-white p-2 rounded-full shadow-lg hover:bg-blue-700 transition"
+          className="bg-blue-600 text-white p-2 rounded-full shadow-lg hover:bg-blue-700 transition hover:scale-120 duration-300"
         >
           <FaLinkedin size={20} />
         </Link>
@@ -42,7 +42,7 @@ const BackToTop = () => {
           to="https://www.instagram.com/dodun.softsolutions/?igsh=YzdpYTFuc2k0cTBn&utm_source=qr"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-pink-600 text-white p-2 rounded-full shadow-lg hover:bg-pink-700 transition"
+          className="bg-pink-600 text-white p-2 rounded-full shadow-lg hover:bg-pink-700 transition hover:scale-120 duration-300"
         >
           <FaInstagram size={20} />
         </Link>
@@ -50,7 +50,7 @@ const BackToTop = () => {
           to="https://wa.link/b9farw"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-green-600 text-white p-2 rounded-full shadow-lg hover:bg-green-700 transition"
+          className="bg-green-600 text-white p-2 rounded-full shadow-lg hover:bg-green-700 transition hover:scale-120 duration-300"
         >
           <FaWhatsapp size={20} />
         </Link>
@@ -58,7 +58,7 @@ const BackToTop = () => {
         {/* Back to Top Button */}
         <button
           onClick={scrollToTop}
-          className="bg-blue-500 text-white p-3 rounded-full shadow-lg hover:bg-blue-600 transition"
+          className="bg-blue-500 text-white p-3 rounded-full shadow-lg hover:bg-blue-600 transition hover:scale-120 duration-300"
           style={{ zIndex: 9999 }}
         >
           <ArrowUp />

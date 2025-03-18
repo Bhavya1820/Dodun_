@@ -161,8 +161,8 @@ const contactUs = () => {
               Get in Touch
             </h2>
 
-            <div className="flex flex-col md:flex-row md:space-x-4">
-              <div className="w-full md:w-1/2">
+            <div className="flex flex-col lg:flex-row md:space-x-4">
+              <div className="w-full lg:w-1/2">
                 <label className="block text-lg font-semibold text-gray-700">
                   First Name
                 </label>
@@ -176,7 +176,7 @@ const contactUs = () => {
                   required
                 />
               </div>
-              <div className="w-full md:w-1/2 mt-4 md:mt-0">
+              <div className="w-full lg:w-1/2 mt-4 md:mt-0">
                 <label className="block text-lg font-semibold text-gray-700">
                   Last Name
                 </label>
